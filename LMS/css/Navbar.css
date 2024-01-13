@@ -1,0 +1,75 @@
+﻿.topnav {
+    overflow: hidden;
+    background: white;
+    color: black;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    font-size: 40px;
+    position: sticky;
+    top: 0;
+}
+
+.pop {
+    overflow: hidden;
+}
+
+.Popup {
+    top: 30%;
+    left: 100%;
+    visibility: hidden;
+    height: 100%;
+    background: whitesmoke;
+    width: 502px;
+    visibility: hidden;
+}
+
+.PopupD {
+    top: 50%;
+    left: 100%;
+    visibility: hidden;
+    height: 429px;
+    background: whitesmoke;
+    width: 502px;
+    visibility: visible;
+}
+
+.ProfilePopup {
+    margin-top: -225px;
+    margin-left: 550px;
+    visibility: hidden;
+    height: 15%;
+    border-radius: 10px;
+    border: 1px solid black;
+    background: whitesmoke;
+    width: 202px;
+    visibility: visible;
+}
+
+.modalBackground {
+    background-color: Black;
+    filter: alpha(opacity=90);
+    opacity: 0.8;
+    overflow: hidden;
+}
+
+.viewPopup {
+    visibility: visible !important;
+    transform: translate(90%,0%);
+    transition: transform 1.4s,left 1.4s;
+}
+
+.remPopup {
+    visibility: hidden;
+    transform: translate(100%,0%);
+    transition: transform 0.04s,left 0.04s;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+}

@@ -1,0 +1,247 @@
+1.  What are indexes in SQL
+	- USED IN PAGE SEARCHING AND DECREASING I/O COST	
+2. What are performance of like operator
+	- DEPENDENT ON WILDCARD USED
+3. What are clustered and non clustered indexes
+	- CLUSTERED- ORDERED ENTRY WITH KEY
+	- UNCLUSTERED - UNORDERED ENTRY WITHOUT KEY
+4. Like operator with indexes
+
+5. Difference between char, varchar,nvarchar in SQL
+	-CHAR- FIXED SIZE
+	-VARCHAR- NO FIXED SIZE
+	- NVARCAHR- FOR UNICODE/ LANGUAGES OTHER THAN ASCII
+6. Impact of indexes on Database
+	-DECREASES SEARCHING TIME
+	-IMPROVES IN PROJECTION 
+	-DECREASING THE WORKABLE TABLE
+7. What are commands that have change in performance due to indexes
+	-SELECT -PERFORMANCE INCREASE
+	-INSERT AND UPDATE - DECREASE
+8. When to use and when not to use indexes
+	
+9. When to use which index
+	
+10. Advantages of Indexes
+	-DECREASES SEARCHING TIME
+	-IMPROVES IN PROJECTION 
+	-DECREASING THE WORKABLE TABLE
+11. Why can indexes not be used with max datatypes
+	-CONSUMES MORE TIME
+	-ADDITIONAL TIME
+12. Wildcards in SQL
+	-'THESTRING'
+	-'THESTRING%'
+	-'%THESTRING'
+	-'%THESTRING%'
+13. Effects on performance due to different wild cards
+	-'THESTRING' - BEST
+	-'THESTRING%'- GOOD
+	-'%THESTRING'- BAD
+	-'%THESTRING%'- WORST
+14. What is index seek and scan
+	- INDEX SEEK -'THESTRING' - BEST
+		     -'THESTRING%'- GOOD
+	- INDEX SCAN -'%THESTRING'- BAD
+		     -'%THESTRING%'- WORST
+15. Whar are table seek and scan
+	- TABLE SEEK -'THESTRING' - BEST
+		     -'THESTRING%'- GOOD
+	- TABLE SCAN -'%THESTRING'- BAD
+		     -'%THESTRING%'- WORST
+16. What is CTE
+	-COMMON TABLE EXPRESSION
+17. What type of table is used in CTE
+	-TEMPORARY TABLE
+18. How are indexes searched
+	BTREE
+19. Temporary table vs Table datatype
+
+advance->20. SQL Agent
+
+advance->21. Linked Server
+
+advance->22. Cross DB Queries 
+
+advance->23. LinkQueue - Disadvantages
+
+24. Union vs UnionAll
+
+25. Set Operations- Minus, Union, Intersections etc.
+
+26. String Operations - STUFF etc.
+
+27. What is pivot and unpivot in MSSql
+
+28. Is Sql case sensitive or insensitive by default
+
+29. How to make SQL case sensitive
+
+30. What are Object and reference variable
+
+31. Singleton Pattern
+
+32. Finally, Finalise, Final
+
+33. Using Keyword
+
+34. Enhancements in the versions of SQL Server along with various Depricates
+
+35. pwd key,Asymmetric Key, TDE
+
+36. SQL encryotion and security
+
+37.Stored Procedure 
+
+38.Transcation 
+
+39.Error Servenity 
+
+40.Sql after how many error level get closed- 10 
+
+41.nvarchar [ ( n | max ) ] [ans 1] 
+-n defines the string size in byte-pairs, and can be a value from 1 to 4,000. max indicates that the maximum storage size is 2^31-1 characters (2 GB). The storage size is two times n bytes + 2 bytes. 
+
+42. Stored Procedure 
+
+43.what is a cursor and its use 
+
+44.Is using Cursor good or bad. 
+
+45.Count_big 
+
+46.VART 
+
+47.CHECKSUM 
+
+48.binary_checksum 
+
+49.STDEV 
+
+
+50.Warning message 
+
+51.Warning message stop after which level of error -10 
+
+52.True or False :Try catch can handle error like attention client interpret request and client dropping coonection 
+
+53.can we return more than 1 table in stored producer 
+
+54.Mssql can have nested Transaction
+
+55.which software is used to give all instance of a file-(notepad++) 
+
+56.which joined is applied if we dont mention any join name(like outer,right,left) - Inner join 
+
+57.open row set is used for? 
+
+58.In sql on which level data interpretation is applied so that client application can be transparent - page level 
+
+59.Stored Procedure when gets executed itself is called - Trigger 60.Trigger 
+
+61.Stored Procedure default return type 
+
+62.Temporary variable in Sql 
+
+63.How can we mark (declare ,intilialize) temporary variables in sql-
+
+64. How to prevent a table from being deleted or what is a disadvantage of foreign key?
+
+65.Difference between declaring constraints as PrimaryKey and (UNIQUE and NOTNULL)?
+
+66. Differnce between rollback and commit
+
+67. What are Constraints
+
+68. Which  is used more loop or cursor
+
+69. Finding nth largest/lowest salary query
+
+70. What are joins
+
+71. difference between delete ,truncate,drop
+
+72. What is OLTP,OLAP and there differneces
+
+73. What is the difference between the RANK() and DENSE_RANK() functions?
+
+74. What are the syntax and use of the COALESCE function?
+
+75. Properties Of a Transaction
+
+76. How does we determine that whether the transaction has been eithered commited or rollbacked
+
+77. Is NULL similar to a zero?
+
+78. List some advantages and disadvantages of Stored Procedure
+
+79. What do you mean by Collation?
+
+80. What are STUFF and REPLACE function?
+
+81. Which of these isolation levels support optimistic concurrency control?
+	--	A. READ COMMITTED isolation level
+		B. SNAPSHOT isolation level
+82. Which of the following is incorrect about User-defined Data Types?
+	A user-defined data type doesn't uses the existing data types with a set of constraints or rules
+
+83. Why are joins are prefered over subqueries?
+	Subqueries take large execution time.
+
+84. What are limitations of temp table?
+
+85. Final keyword is not present in C sharp.
+
+86. ExecuteReader, ExecuteNonQuery and Executescalar in ADO.NET
+	--ExecuteNonQuery-> is used to perform DML commands of SQL on data source and table. It does not return any vakue other than the rows that are affected due to it.
+	--ExecuteReader-> It is used to perform the SQL commands and as such return the result to the SQL commands as an array of DataSet.
+	--ExecuteScalar-> It to execute SQL commands and as per return a single value for the result.
+
+87. Using keyword:
+	1. In general the 'using' keyword is used to connect/add the namespace so as to make the methods and classes accessible 
+	2. It is also used for the Garbage Collection and clearing up of object.
+	3. It can also be used	 close the methods that are used or being used.
+88. What is SQL Helper?
+	It is a predefined class in SQL that contains the code to provide with the codes of various methods and connections making it easy for program to write a code.
+
+89. Data Adapter:
+	1. It acts as a bridge between Data Source and Data Set
+	2. Used to fill Data Set and update Data Source.
+
+90. Data Set:
+	1. It is used to access data independently from the data source and may contain one or more data table
+	2. It can operate with or without a connection establishment and can be used accordingly.
+	3. Allows the data to be manipulated as it catches data locally
+	4. It interacts with data dynammically
+91. DataReader:
+	It provides the same features but only when their is a connection that also provides an increase in the performance.
+
+92. ADO.NET SqlConnection Class:
+	It is used to establish an open connection to the SQL Server database. It is a sealed class so that cannot be inherited. SqlConnection class uses SqlDataAdapter and SqlCommand classes together to increase performance when connecting to a Microsoft SQL Server database
+
+93. ADO.NET SqlDataReader Class:
+	This class is used to read data from SQL Server database. It reads data in forward-only stream of rows from a SQL Server database. it is sealed class so that cannot be inherited. It inherits DbDataReader class and implements IDisposable interface.
+
+94. ADO.NET SqlCommand Class
+	This class is used to store and execute SQL statement for SQL Server database. It is a sealed class so that cannot be inherited.
+
+95. ADO.NET DataSet
+	It is a collection of data tables that contain the data. It is used to fetch data without interacting with a Data Source that's why, it also known as disconnected data access method. It is an in-memory data store that can hold more than one table at the same time. We can use DataRelation object to relate these tables. The DataSet can also be used to read and write data as XML document.
+
+96. ADO.NET DataAdapter
+	The DataAdapter works as a bridge between a DataSet and a data source to retrieve data. DataAdapter is a class that represents a set of SQL commands and a database connection. It can be used to fill the DataSet and update the data source.
+
+97. ADO.NET DataTable
+	1. DataTable represents relational data into tabular form. ADO.NET provides a DataTable class to create and use data table independently. It can also be used with DataSet also. Initially, when we create DataTable, it does not have table schema. We can create table schema by adding columns and constraints to the table. After defining table schema, we can add rows to the table.
+	2. We must include System.Data namespace before creating DataTable.
+98. Lock
+	Lock is acquired when any process accesses a piece of data where there is a chance that another concurrent process will need this piece of data as well at the same time. By locking the piece of data we ensure that we are able to action on that data the way we expect.
+99. Block
+	Block (or blocking lock) occurs when two processes need access to same piece of data concurrently so one process locks the data and the other one needs to wait for the other one to complete and release the lock. As soon as the first process is complete, the blocked process resumes operation. 
+100. 
+. Connection and Disconnect in ADO.NET
+
+
+. What is GridView and its Controls?
+
+. DropDown List using C#.

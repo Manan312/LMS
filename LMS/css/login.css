@@ -1,0 +1,270 @@
+﻿    body {
+        font: 20px;
+        font-family: 'Times New Roman';
+        background: linear-gradient(360deg,#00C157,#CBDD6E);
+        position: relative;
+        height: 100%;
+        width: 100%;
+    }
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: Raleway, sans-serif;
+    
+    }
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(360deg,#00C157,#CBDD6E);
+    height: 100%;
+    padding-top: 80px;
+    padding-bottom:240px;
+    
+}
+
+    .screen {
+        background: linear-gradient(270deg, #CBDD6E,#00C157 );
+        position: relative;
+        height: 600px;
+        width: 360px;
+    
+    }
+
+    .screen__content {
+        z-index: 1;
+        position: relative;
+        height: 100%;
+    }
+
+    .login {
+        width: 320px;
+        padding: 30px;
+        padding-top: 156px;
+    }
+
+    .login__field {
+        padding: 20px 0px;
+        position: relative;
+    }
+
+    .login__icon {
+        position: absolute;
+        top: 30px;
+        color: #00C157;
+    }
+
+    .login__input {
+        border: none;
+        border-bottom: 2px solid #D1D1D4;
+        background: none;
+        padding: 10px;
+        padding-left: 24px;
+        font-weight: 700;
+        width: 75%;
+        transition: .2s;
+    }
+
+        .login__input:active,
+        .login__input:focus,
+        .login__input:hover {
+            outline: none;
+            border-bottom-color: #6A679E;
+        }
+
+    .screen__background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 0;
+        clip-path: inset(0 0 0 0);
+    }
+
+    .screen__background__shape {
+        transform: rotate(45deg);
+        position: absolute;
+    }
+    .screen__background__shapea {
+        transform: rotate(45deg);
+        position: absolute;
+    }
+    .screen__background__shape1 {
+        height: 520px;
+        width: 520px;
+        background: #fff;
+        top: -50px;
+        right: 120px;
+        border-radius: 0 72px 0 0;
+    }
+
+    .screen__background__shape2 {
+        height: 220px;
+        width: 220px;
+        background: linear-gradient(270deg, #CBDD6E,#00C157 );
+    
+        top: -172px;
+        right: 0;
+        border-radius: 32px;
+    }
+
+    .screen__background__shape3 {
+        height: 540px;
+        width: 190px;
+        background: linear-gradient(270deg,#00C157, #CBDD6E );
+        top: -24px;
+        right: 0;
+        border-radius: 32px;
+    }
+
+    .screen__background__shape4 {
+        height: 400px;
+        width: 200px;
+        background: linear-gradient(270deg,#00C157, #CBDD6E );
+    
+    
+        top: 420px;
+        right: 50px;
+        border-radius: 60px;
+    }
+
+    .login__submit {
+        background: #fff;
+        font-size: 14px;
+        margin-top: 30px;
+        padding: 16px 20px;
+        border-radius: 6px;
+        border: 1px solid #D4D3E8;
+        text-transform: uppercase;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        color: #00C157;
+        box-shadow: 2px 7px 5px -4px rgba(0,0,0,0.75);
+        cursor: pointer;
+        transition: .2s;
+    }
+
+        .login__submit:active,
+        .login__submit:focus,
+        .login__submit:hover {
+            border-color: #6A679E;
+            outline: none;
+        }
+
+    table {
+        border-collapse: separate;
+        border-spacing: 30px 0;
+    }
+
+    td {
+        height: 20px;
+    }
+
+    body {
+        font: 12px verdana;
+    }
+
+    .myGridStyle {
+        border-collapse: collapse;
+        border-radius: 20px;
+        width: auto;
+        margin-left:20px;
+
+    }
+
+        .myGridStyle tr th {
+            padding: 8px;
+            color: white;
+            border: 1px solid black;
+       
+            background-color: #4C489D;
+        }
+
+
+        .myGridStyle tr:nth-child(even) {
+            background-color: #fff;
+            font-size: 14px;
+            font-weight: 700;
+            color: #4C489D;
+        }
+
+        .myGridStyle tr:nth-child(odd) {
+            background-color: #fff;
+            font-size: 14px;
+            font-weight: 700;
+            color: #4C489D;
+        }
+
+        .myGridStyle td {
+            border: 1px solid black;
+            padding: 8px;
+            width: auto;
+        }
+
+        .myGridStyle tr:last-child td {
+        }
+
+    .mtable {
+        border-collapse: separate;
+        border-spacing: 10px -10px;
+        margin-left: auto;
+        border: 1px solid black;
+        border-radius: 20px;
+        font-size: 20px;
+        background-color: white;
+        width: 305px;
+        height: 400px;
+    }
+
+    .main {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        display: inline-flex;
+    }
+
+    .left {
+        margin: 80px;
+        position: absolute;
+        left: 0;
+    }
+
+    .right {
+        margin-top: 80px;
+        height: auto;
+        width: auto;
+        position: absolute;
+        left: 600px;
+    }
+    .sideBar {
+        background-color: aqua;
+        float: left;
+        color: black;
+        text-align: center;
+        padding: 14px 0px;
+        text-decoration: none;
+        font-size: 17px;
+        width: 200px;
+    }
+
+        .sideBar:hover {
+            background-color: whitesmoke;
+            font-size: 20px
+        }
+
+    .hyperlink {
+        text-decoration: none;
+        color: black;
+    }
+
+    .hyperlink:hover {
+            text-decoration: none;
+            color: black;
+            font-size: 20px
+        }

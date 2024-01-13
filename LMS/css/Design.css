@@ -1,0 +1,306 @@
+﻿body {
+    
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+}
+
+.topnav {
+    overflow: hidden;
+    background: white;
+    color: black;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    font-size: 40px;
+    position: sticky;
+    top: 0;
+}
+.pop {
+    overflow:hidden;
+}
+.Popup {
+    top:30%;
+    left:100%;
+    visibility:hidden;
+    height: 100%;
+    background: whitesmoke;
+    width: 502px;
+    visibility:visible;
+    
+}
+.dPopup {
+    border: 1px solid black;
+   top:5px;
+    left: 50%;
+    position: relative;
+    background: whitesmoke;
+    overflow: auto;
+}
+view {
+    visibility: visible;
+
+}
+disappear {
+    visibility: hidden;
+
+}
+.modalBackground {
+    background-color: Black;
+    filter: alpha(opacity=90);
+    opacity: 0.8;
+    overflow:hidden;
+}
+.viewPopup {
+    visibility: visible;
+    transform: translate(90%,0%);
+    transition: transform 1.4s,left 1.4s;
+}
+.remPopup {
+    visibility: hidden;
+    transform: translate(-90%,0%);
+    transition: transform 1.4s,left 1.4s;
+}
+
+    .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 22px;
+    }
+
+.lkbtn:hover {
+    background-color: #ddd;
+    color: deepskyblue;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    color: deepskyblue;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: deepskyblue;
+}
+
+.login__submit {
+    background: #fff;
+    font-size: 14px;
+    margin-top: 30px;
+    padding: 16px 20px;
+    border-radius: 5px;
+    border: 1px solid #00C157;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: #00C157;
+    box-shadow: 2px 7px 5px -4px rgba(0,0,0,0.75);
+    cursor: pointer;
+    transition: .2s;
+}
+
+    .login__submit:active,
+    .login__submit:focus,
+    .login__submit:hover {
+        border-color: #6A679E;
+        outline: none;
+    }
+
+.line {
+    width: 100%;
+    height: 540px;
+    margin: 0px 0px;
+    display: inline-flex;
+    flex: inherit;
+    vertical-align: middle;
+}
+
+.line1 {
+    width: 100%;
+    height: 950px;
+    margin: 30px 0px 0px 0px;
+    padding: 0px 0px;
+    display: inline-flex;
+    flex: inherit;
+    vertical-align: middle;
+}
+
+.item1 {
+    width: 64%;
+    height: 925px;
+    background-color: white;
+    border: 1px solid white;
+    margin: 10px 10px;
+    padding: 2px 10px;
+    border-radius: 5px;
+    box-shadow: 6px 7px 8px 0px rgba(158,155,158,0.79);
+}
+
+.item2 {
+    width: 34%;
+    height: 910px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.item {
+    width: 430px;
+    height: 500px;
+    border: 1px solid white;
+    background-color: white;
+    margin: 10px 10px 0px 10px;
+    border-radius: 5px;
+    box-shadow: 6px 7px 8px 0px rgba(158,155,158,0.79);
+}
+
+.login__input {
+    border: none;
+    border-bottom: 2px solid #D1D1D4;
+    background: none;
+    padding: 10px;
+    padding-left: 24px;
+    font-weight: 700;
+    width: 95%;
+    font-size: 20px;
+    transition: .2s;
+    resize: none;
+}
+
+    .login__input:active,
+    .login__input:focus,
+    .login__input:hover {
+        outline: none;
+        border-bottom-color: #6A679E;
+    }
+
+.forms {
+    margin: 60px 60px;
+    font-size: 30px;
+    font-family: 'Noto Serif', serif;
+}
+
+.myGridStyle {
+    border-collapse: collapse;
+    border-radius: 4px;
+    width: auto;
+    margin: 20px;
+    box-shadow: 2px 7px 5px -4px rgba(0,0,0,0.75);
+    padding: 5px;
+}
+
+    .myGridStyle tr th {
+        padding: 8px;
+        color: white;
+        background-color: #00C157;
+        width: 731px;
+    }
+
+
+    .myGridStyle tr:nth-child(even) {
+        background-color: #fff;
+        font-size: 14px;
+        border: 1px solid #00C157;
+        font-weight: 700;
+        color: #0072B5;
+    }
+
+    .myGridStyle tr:nth-child(odd) {
+        background-color: #fff;
+        font-size: 14px;
+        border: 1px solid #00C157;
+        font-weight: 700;
+        color: #0072B5;
+    }
+
+    .myGridStyle td {
+        border: 0px solid black;
+        padding: 10px 5px;
+        width: auto;
+        margin: 2px 10px;
+    }
+
+.grdsrt td {
+    padding: 10px 40px !important;
+}
+
+.myGridStyle tr:last-child td {
+}
+
+GridPager {
+}
+
+.gth tr th {
+    padding: 8px;
+    color: white;
+    font-size: 21px !important;
+    background-color: #00C157;
+    width: 731px;
+}
+
+.gth tr:nth-child(even) {
+    background-color: #fff;
+    font-size: 18px;
+    border: 1px solid #00C157;
+    font-weight: 700;
+    color: #0072B5;
+}
+
+.gth tr:nth-child(odd) {
+    background-color: #fff;
+    font-size: 18px;
+    border: 1px solid #00C157;
+    font-weight: 700;
+    color: #0072B5;
+}
+
+.grdTask {
+    border-collapse: collapse;
+    border-radius: 4px;
+    width: 400px;
+    margin: 20px;
+    box-shadow: 2px 7px 5px -4px rgba(0,0,0,0.75);
+    padding: 5px;
+}
+
+    .grdTask tr th {
+        padding: 8px;
+        border-collapse: collapse;
+        color: white;
+        background-color: #00C157;
+        width: 731px;
+    }
+
+
+    .grdTask tr:nth-child(even) {
+        background-color: #fff;
+        font-size: 14px;
+        border-collapse: collapse;
+        font-weight: 700;
+        color: #0072B5;
+    }
+
+    .grdTask tr:nth-child(odd) {
+        background-color: #fff;
+        font-size: 14px;
+        border-collapse: collapse;
+        font-weight: 700;
+        color: #0072B5;
+    }
+
+    .grdTask td {
+        border-collapse: collapse;
+        padding: 10px 5px;
+        width: auto;
+        margin: 2px 10px;
+    }
